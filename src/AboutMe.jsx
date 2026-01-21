@@ -5,8 +5,8 @@ const AboutMe = () => {
     return (
         <>
             <div className="container">
-                <div className='text-center mt-30'>
-                    <h1 className='text-6xl font-bold font-inter'>About <span className='text-[#7127BA]'>Me</span> </h1>
+                <div className='text-center '>
+                    <h1 className='text-6xl font-bold font-inter'> The <span className='text-[#7127BA]'>Skills</span> I Have </h1>
                 </div>
                 <div className='mt-20 relative'>
                     <img src={about} alt="" className='mx-auto block ' />

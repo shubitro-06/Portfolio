@@ -1,15 +1,17 @@
 import React from 'react'
 import Me from '../src/assets/Me.png'
+import ball from '../src/assets/BgBall.png'
 
 const Banner = () => {
     return (
         <>
             <div className="container">
-                <div className='flex'>
-                    <div className='bg-[url(src/assets/BgBall.png)] w-137 h-141.5 '>
-                        <img src={Me} alt="" className='absolute top-94.5 left-110.5' />
+                <div className='flex '>
+                    <div className='relative'>
+                        <img src={ball} alt="" />
+                        <img src={Me} alt="" className='absolute top-[267px] left-[257px] ' />
                     </div>
-                    <div className='font-prea mt-49.5'>
+                    <div className='font-prea mt-49.5 absolute top-[109px] left-183'>
                         <h6 className='text-xl'>Hello! I Am <span className='text-[#7127BA]'>Shubitro Candra Dev</span> </h6>
                         <div className='pt-23.25 '>
                             <p>A Developer who</p>
