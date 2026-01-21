@@ -7,8 +7,8 @@ const Banner = () => {
         <>
             <div className="container">
                 <div className='flex '>
-                    <div className='relative'>
-                        <img src={ball} alt="" />
+                    <div className='relative bg-[url(src/assets/BgBall.png)] h-[588px] w-[557px] '>
+                        {/* <img src={ball} alt="" /> */}
                         <img src={Me} alt="" className='absolute top-[267px] left-[257px] ' />
                     </div>
                     <div className='font-prea mt-49.5 absolute top-[109px] left-183'>
