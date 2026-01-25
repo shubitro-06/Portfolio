@@ -2,12 +2,13 @@ import React from 'react'
 import Me from '../src/assets/Me.png'
 import ball from '../src/assets/BgBall.png'
 
+// style={{ backgroundImage: `url(${ball})` }}
 const Banner = () => {
     return (
         <>
             <div className="container">
                 <div className='flex '>
-                    <div className='relative bg-[url(src/assets/BgBall.png)] h-[588px] w-[557px] '>
+                    <div className='relative h-[588px] w-[557px] bg-[url(src/assets/BgBall.png)] h-[588px] w-[557px] ' >
                         {/* <img src={ball} alt="" /> */}
                         <img src={Me} alt="" className='absolute top-[267px] left-[257px] ' />
                     </div>

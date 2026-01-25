@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaGithub } from "react-icons/fa";
 
 const MyWork = () => {
     return (
@@ -9,8 +10,13 @@ const MyWork = () => {
                 </div>
                 <div>
                     <div className='w-[368px] h-[280px] bg-[#7027ba4f] rounded-2xl'>
+                        <div className='flex gap-5.5 justify-center'>
 
                         <a href="https://to-do-list-firebase-zeta.vercel.app/" target='_blank'> To Do List </a>
+                    
+                        <a href="https://github.com/shubitro-06/To-Do-list-firebase" target='_blank' className='text-3xl'><FaGithub /></a>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
